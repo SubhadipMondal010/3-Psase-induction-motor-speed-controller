@@ -1,9 +1,9 @@
 const int mosfetA = 2; // High-side MOSFET A
 const int mosfetB = 3; // High-side MOSFET B
 const int mosfetC = 4; // High-side MOSFET C
-const int mosfetD = 5; // Low-side MOSFET D
-const int mosfetE = 6; // Low-side MOSFET E
-const int mosfetF = 7; // Low-side MOSFET F
+const int mosfetD = 5; // Low-side MOSFET A'
+const int mosfetE = 6; // Low-side MOSFET B'
+const int mosfetF = 7; // Low-side MOSFET C'
 
 
 const float degreeToMs = 20.0 / 360.0; 
