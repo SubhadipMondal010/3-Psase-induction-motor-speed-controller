@@ -45,19 +45,19 @@ void loop() {
   float currentDegree = (elapsedTime / degreeToMs);
 
 
-  if (currentDegree >= 20 && currentDegree < 160) {
+  if (currentDegree >= 15 && currentDegree < 165) {
     digitalWrite(mosfetA, HIGH);
   } else {
     digitalWrite(mosfetA, LOW);
   }
 
-  if (currentDegree >= 140 && currentDegree < 280) {
+  if (currentDegree >= 130 && currentDegree < 290) {
     digitalWrite(mosfetB, HIGH);
   } else {
     digitalWrite(mosfetB, LOW);
   }
 
-  if (currentDegree >= 260 || currentDegree < 40) {
+  if (currentDegree >= 250 || currentDegree < 50) {
     digitalWrite(mosfetC, HIGH);
   } else {
     digitalWrite(mosfetC, LOW);
@@ -69,19 +69,19 @@ void loop() {
 
 
 
-  if (currentDegree >= 200 && currentDegree < 340) {
+  if (currentDegree >= 195 && currentDegree < 345) {
     digitalWrite(mosfetD, HIGH);
   } else {
     digitalWrite(mosfetD, LOW);
   }
 
-  if (currentDegree >= 320 || currentDegree < 100) {
+  if (currentDegree >= 310 || currentDegree < 110) {
     digitalWrite(mosfetE, HIGH);
   } else {
     digitalWrite(mosfetE, LOW);
   }
 
-  if (currentDegree >= 80 && currentDegree < 220) {
+  if (currentDegree >= 70 && currentDegree < 230) {
     digitalWrite(mosfetF, HIGH);
   } else {
     digitalWrite(mosfetF, LOW);
